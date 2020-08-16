@@ -1,0 +1,15 @@
+{
+    "db": {
+        "user": "{{DB_USER}}",
+        "password": "{{DB_PASSWORD}}",
+        "database": "{{DB_NAME}}",
+        "port": "27017",
+        "host": "127.0.0.1"
+    },
+    "app": {
+        "url": "{{APP_URL}}",
+        "prefix": "{{API_PREFIX}}",
+        "port": "{{PORT}}"
+    },
+    "secret": "{{JWT_SECRET}}"
+}
